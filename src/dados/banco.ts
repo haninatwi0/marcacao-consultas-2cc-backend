@@ -4,7 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { DatabaseSync } from "node:sqlite";
-import catalogo from "./dados/catalogo.json";
+import catalogo from "./catalogo.json";
 
 const pastaDados = path.join(__dirname, "dados");
 fs.mkdirSync(pastaDados, { recursive: true });
